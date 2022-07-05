@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  --bg: white;
+  --text: #1c1c1c;
+}
+
+body.dark {
+  --bg: #1c1c1c;
+  --text: white;
+}

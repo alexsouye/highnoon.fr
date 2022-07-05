@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+// Abstracts folder
+@import './abstracts/mixins';
+@import './abstracts/variables';
+@import './abstracts/helpers';
+
+// Base app folder
+@import './base/base';
+@import './base/typography';
+
+// All components
+@import './components/buttons';
+@import './components/header';
+
+// Layout
+@import './layout/footer';
+@import './layout/sections';
+
+// Sections 
+@import './sections/about';
+@import './sections/contact';
+@import './sections/hero';
+@import './sections/projects';
+
+// Utils
+@import './vendor/css/font-awesome.min.css';

@@ -1,0 +1,35 @@
+{
+  "name": "highnoonfr",
+  "description": "highnoon.fr website",
+  "author": "alexsouye",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/react": "11.9.3",
+    "@emotion/styled": "11.9.3",
+    "@mui/material": "5.8.6",
+    "framer-motion": "6.3.16",
+    "next": "latest",
+    "node-sass": "7.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "2.4.0",
+    "react-dom": "17.0.2",
+    "react-reveal": "1.2.2",
+    "styled-components": "5.3.5"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "highnoon",
+    "next",
+    "next.js",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexsouye/highnoon.fr/issues"
+  }
+}
